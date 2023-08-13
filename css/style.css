@@ -1,0 +1,77 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #ffa500;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+}
+
+/* Styles for specific sections */
+#home {
+    text-align: center;
+    background-image: url('../images/bee.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#about h2, #products h2, #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.product img {
+    max-width: 20%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 3 rem;
+    font-style:oblique;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
